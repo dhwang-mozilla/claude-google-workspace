@@ -1,0 +1,6 @@
+{
+  "name": "gdoc-sync",
+  "description": "Pull a Google Doc to a local file and push local edits back, via the gws Google Workspace CLI authed off an existing gcloud login.",
+  "version": "1.0.0",
+  "author": { "name": "Do Hyun Hwang", "email": "dhwang@mozilla.com" }
+}

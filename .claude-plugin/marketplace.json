@@ -1,0 +1,12 @@
+{
+  "name": "claude-google-workspace",
+  "owner": { "name": "Do Hyun Hwang", "email": "dhwang@mozilla.com" },
+  "description": "Claude Code skills for Google Workspace (Docs/Drive/Sheets)",
+  "plugins": [
+    {
+      "name": "gdoc-sync",
+      "source": "./plugins/gdoc-sync",
+      "description": "Pull/push Google Docs to local files via the gws CLI, authed off an existing gcloud login (no GCP project / SA key needed)."
+    }
+  ]
+}
